@@ -9,3 +9,29 @@ form {
   display: grid;
   gap: 20px;
 }
+
+.field-wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 3fr;
+}
+
+.message-wrapper {
+  display: grid;
+  height: 200px;
+  grid-template-rows: 1fr 5fr;
+}
+
+button {
+  background: #333388;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  justify-self: end;
+  transition: 0.5s;
+}
+
+button:hover, button:focus, button:active {
+  background: green;
+}
