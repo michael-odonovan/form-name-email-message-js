@@ -2,7 +2,7 @@ body {
   background: #eee;
 }
 
-form {
+form, .data-wrapper {
   width: 95%;
   max-width: 400px;
   margin: 100px auto;
@@ -35,3 +35,4 @@ button {
 button:hover, button:focus, button:active {
   background: green;
 }
+
