@@ -1,4 +1,9 @@
 function myFunction() {
   event.preventDefault();
-  console.log("hello form");
+
+  let nameData = document.querySelector('input[name="name"]').value
+  let emailData = document.querySelector('input[name="email"]').value
+  let messageData = document.querySelector('textarea').value
+
+  console.log(messageData)
 }
