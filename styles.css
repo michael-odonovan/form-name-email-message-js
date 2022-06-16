@@ -1,0 +1,11 @@
+body {
+  background: #eee;
+}
+
+form {
+  width: 95%;
+  max-width: 400px;
+  margin: 100px auto;
+  display: grid;
+  gap: 20px;
+}
