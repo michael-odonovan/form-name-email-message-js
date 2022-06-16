@@ -8,21 +8,25 @@
   </head>
   <body>
 
+
+    <!-- Notes: -->
+    <!-- autocomplete="off" make the data clear on refresh --> 
+
     <form onsubmit="myFunction()">
 
       <div class="field-wrapper">
         <label for="name">name:</label>
-        <input type="text" name="name">
+        <input autocomplete="off" type="text" name="name">
       </div>
 
       <div class="field-wrapper">
         <label for="email">email:</label>
-        <input type="text" name="email">
+        <input autocomplete="off" type="text" name="email">
       </div>
 
       <div class="message-wrapper">
         <label for="message">message:</label>
-        <textarea></textarea>
+        <textarea autocomplete="off"></textarea>
       </div>
 
       <button onclick="submit">Submit</button>
